@@ -1,0 +1,102 @@
+
+
+.banner-main {
+    // background-color: #6A669D;
+    // border-radius: 20PX;
+
+    // background: rgb(78 100 131 / 20%);
+    // border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    // backdrop-filter: blur(5px);
+    // -webkit-backdrop-filter: blur(5px);
+    // border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+
+.bannerImage img{
+    width: 100%;
+    object-fit: contain;
+}
+.relationship .bannerImage img{
+    width: 80%;
+    object-fit: contain;
+}
+
+.banner-title {
+    font-size: 48px;
+    line-height: 58px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.bannerText {
+    padding-right: 130px;
+}
+.banner_desc {
+    font-size: 16px;
+    line-height: 36px;
+    padding-bottom: 25px;
+}
+.latest-news {
+    // background: #9ABF80;
+    // background: rgba(255, 255, 255, 0.2);
+    // border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);;
+    // border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.latest-news h1 {
+    // color: #57606e;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 50px;
+}
+.latest-news input, .latest-news button  {
+    height: 3rem;
+    color: #524f4f;
+    font-size: 16px;
+    font-weight: 400;
+}
+.servic-title h5 {
+    font-weight: 500;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: rgb(78 100 131 / 20%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    // backdrop-filter: blur(5px);
+    // -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+.card-img-top {
+    object-fit: scale-down;
+    width: 70%;
+}
+.card-img-absolute {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+.card-title {
+    font-weight: 500;
+    // color: #43464b;
+    font-size: 22px;
+}
+.card p {
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 17px;
+}
+.card:hover {
+    box-shadow: 15px 10px 30px rgba(216, 212, 212, 0.1);
+}

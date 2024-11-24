@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    // background-color: purple;
+    background-color: #051934;
+    color: #fff;
+}
+
+main {
+    min-height: calc(100vh - 80px);
+    padding-top: 100px;
+}
+.container {
+    max-width: 1400px;
+}

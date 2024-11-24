@@ -1,0 +1,32 @@
+.logoContainer {
+    img {
+        width: 80px;
+        border-radius: 15px;
+    }
+}
+ul {
+    padding: 0px;
+}
+li {
+    list-style-type: none;
+    // font-size: 14px;
+}
+.text-bold {
+    font-weight: bold;
+}
+.footer-main {
+    // background-color: #6A669D;
+    background: rgb(78 100 131 / 20%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    // border-radius: 20PX;
+}
+.info p {
+    font-size: 16px;
+}
+.links .text-bold {
+    font-size: 18px;
+}
+.links ul {
+    font-size: 16px;
+}
