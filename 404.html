@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="en"><head>
   <meta charset="utf-8">
   <title>PDSTECH</title>
-  <base href="/https://github.com/PankajVShahare/PDS_TECH.git/">
+  <base href="/PDS_TECH/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,6 +11,13 @@
   <app-root></app-root>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    const redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect && redirect !== location.href) {
+        history.replaceState(null, null, redirect);
+    }
+</script>
 <script src="runtime.3f7840c371e9b152.js" type="module"></script><script src="polyfills.f0471fa2a8b6ccbf.js" type="module"></script><script src="main.2e0c5f4fa0751c85.js" type="module"></script>
 
 </body></html>
