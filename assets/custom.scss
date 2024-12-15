@@ -1,0 +1,37 @@
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+.socialMedia {
+    .fa {
+        padding: 10px;
+    }
+}
+
+.outer-aboutUs {
+    h5 {
+        font-size: 18px;
+        color: #fd5c9e;
+        font-weight: 500;
+    }
+    .head {
+        color: #fd5c9e;
+    }
+}
+
+.relationship {
+    .relation-title {
+        color: #fd5c9e;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 1600px) {
+    .container {
+        max-width: 1190px;
+    }
+}
