@@ -1,32 +1,107 @@
 .logoContainer {
     img {
-        width: 80px;
-        border-radius: 15px;
+        width: 70px;
+        // border-radius: 15px;
     }
 }
+
 ul {
     padding: 0px;
 }
+
 li {
     list-style-type: none;
     // font-size: 14px;
 }
+
 .text-bold {
     font-weight: bold;
 }
+
 .footer-main {
     // background-color: #6A669D;
-    background: rgb(78 100 131 / 20%);
+    // background: #110c0c;
+    background: #010230;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     // border-radius: 20PX;
 }
+
 .info p {
     font-size: 16px;
 }
+
 .links .text-bold {
     font-size: 18px;
 }
+
 .links ul {
     font-size: 16px;
+}
+
+// .footer {
+//     height: 25vh;
+// }
+
+.footerLinks {
+    // height: 100%;
+    gap: 1.5vw;
+    // border-top: 1.1vw solid #fff;
+}
+
+.single-widget p {
+    color: #e5e5e5;
+    margin-bottom: 26px;
+    margin-top: 26px;
+    text-align: justify;
+}
+
+.single-widget ul li {
+    margin-bottom: 16px;
+    line-height: 1;
+}
+
+.single-widget ul li a {
+    color: #e5e5e5;
+    position: relative;
+}
+
+a {
+    display: inline-block;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+.single-widget h3 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.single-widgets p {
+    text-align: left;
+    color: #fff;
+    margin-top: 5px;
+    padding-left: 0px;
+}
+
+.logoContainer img {
+    width: 70px;
+}
+
+.copyRight {
+    background-color: #fd5c9e;
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .logoContainer {
+        display: none;
+    }
+    .footerLinks {
+        height: 100%;
+        flex-direction: column !important;
+        font-size: 0.9rem;
+        padding: 0px;
+    }
 }

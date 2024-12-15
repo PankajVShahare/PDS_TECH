@@ -1,17 +1,53 @@
 <!-- <p>header works!</p> -->
 <!-- <i class="fa fa-facebook" aria-hidden="true"></i> -->
-
-<div class="header-main container d-flex justify-content-between align-items-center px-0 pt-2">
-    <div class="logoContainer">
-        <img src="../assets/images/logo.jpeg" alt="logo-image">
-    </div>
-    <div class="headerMenus p-3">
-        <ul>
-            <li>Home</li>
-            <li>Digital MArketing</li>
-            <li>About Us</li>
-            <li>Contact US</li>
-            <li>Team</li>
-        </ul>
+<div class="header-main  w-100 mx-auto py-1">
+    <div class=" d-flex container justify-content-between align-items-center px-3 px-md-0 pt-2">
+        <div class="logoContainer">
+            <img src="assets/images/logo.jpeg" alt="logo-image">
+        </div>
+        <div class="headerMenus p-3 d-flex justify-content-between">
+            <ul>
+                <li>Home</li>
+                <li>Digital MArketing</li>
+                <li>About Us</li>
+                <li>Blog</li>
+                <li>Contact US</li>
+            </ul>
+            <span class="socialMedia ps-2">
+                <i class="fa fa-brands fa-facebook-f"></i>
+                <i class="fa fa-brands fa-linkedin-in"></i>
+                <i class="fa fa-brands fa-instagram"></i>
+                <i class="fa fa-brands fa-whatsapp"></i>
+            </span>
+        </div>
+        
+    
+        <!-- Sidebar for Mobile -->
+        <div class="headerMenusMobile p-3">
+            <div class="nav-right visible-xs">
+                <div class="button" id="btn" (click)="toggleSidebar()">
+                  <div class="bar top"></div>
+                  <div class="bar middle"></div>
+                  <div class="bar bottom"></div>
+                </div>
+            </div>
+            <div class="nav-right hidden-xs">
+                <div class="button" id="btn" (click)="toggleSidebar()">
+                  <div class="bar top"></div>
+                  <div class="bar middle"></div>
+                  <div class="bar bottom"></div>
+                </div>
+            </div>
+            <div class="sidebar">
+                <ul class="sidebar-list">
+                  <li class="sidebar-item"><a href="#" class="sidebar-anchor">Home</a></li>
+                  <li class="sidebar-item"><a href="#" class="sidebar-anchor">Digital MArketing</a></li>
+                  <li class="sidebar-item"><a href="#" class="sidebar-anchor">About Us</a></li>
+                  <li class="sidebar-item"><a href="#" class="sidebar-anchor">Contact US</a></li>
+                  <li class="sidebar-item"><a href="#" class="sidebar-anchor">Team</a></li>
+                </ul>
+              </div>
+        </div>
+    
     </div>
 </div>
